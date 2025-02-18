@@ -5,7 +5,7 @@ server:
   eureka:
     instance:
       preferIpAddress: true
-      hostname: ${HOSTNAME:localhost}
+      hostname: ${HOSTNAME:http://eureka-server:8761/eureka}
 
     client:
       registerWithEureka: true
