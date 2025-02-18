@@ -15,7 +15,7 @@ server:
 
 spring:
   application:
-    name: cloud-gateway
+    name: gateway
   cloud:
     gateway:
       discovery:
